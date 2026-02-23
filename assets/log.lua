@@ -10,7 +10,7 @@ local LogWindow = Library:CreateWindow({
     Size = UDim2.fromOffset(350, 250)
 })
 local LogTab = LogWindow:AddTab(" ", "boxes")
-local LogBox = LogTab:AddLeftGroupbox(" "
+local LogBox = LogTab:AddLeftGroupbox(" ")
 LogBox:AddLabel("LogLabel", {
     Text = "Changed on upd:\n" ..
            "[+] added MORE tabs\n" ..
